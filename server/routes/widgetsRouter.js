@@ -45,13 +45,20 @@ widgetsRouter.route('/')
 //this stack (below) is designed to interact with a single specific widget (by ID in this case). This is middleware functions (.route .get .post). http://localhost:4000/widgets/4  (the 4 would come in as widgetId)
 
 widgetsRouter.route('/:widgetId')
-    .get((req, res, next) => {
+    .get((req, res) => {
         console.log('get method hit /widgets/banana!');
         res.json(req.params)
     }) 
 
     .put((req, res, next) => {
         const id = req.params.widgetId
+        Widget.findByIdAndUpdate(id, {
+            $set: req.body
+        }, { new: true })
+            .then(widget => {
+                res.json(widget);
+            })
+            .cactch(err => next(err));
     })
 
     //for thursday 10/  a const put widget on the front end. below the post widget function on the front end, 
