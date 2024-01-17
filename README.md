@@ -20,7 +20,8 @@ There is no package.json file for installations.
 ```bash
 git clone https://github.com/Joyaburke/fullstackproject-server.git
 ```
-![image](https://github.com/Joyaburke/todoapp/assets/130799658/0c8ef2ad-7711-4dc7-ba78-314f6cfa6452)
+![image](https://github.com/Joyaburke/fullstackproject-server/assets/130799658/7642d55f-307d-46c0-9cf8-7ab056262b35)
+
 
 
 ## Usage
