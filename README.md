@@ -6,7 +6,7 @@ Main: contains the read me file explaining the GitHub repository. <br>
 Server: contains the server end of the repo and all subsequent files. <br>
   - that is what is contained in this repo
 Client: contains the client end of the repo and all subsequent files. <br>
-  - This was my first full-stack project I uploaded to git and I didn't realize the client side wouln't upload when I uploaded the server side. They were in the same view in VS Code, but not the same file. I realize my mistake now, but not when I initially uploaded it. I need to go back and upload the client side of this project.
+  - This was my first full-stack project I uploaded to GitHub and I didn't realize the client side wouldn't upload when I uploaded the server side. They were in the same view in VS Code, but not the same file. I realize my mistake now, but not when I initially uploaded it. I need to go back and upload the client side of this project.
 
 
 Snapshot of the Widgets Project UI
